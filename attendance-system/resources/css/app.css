@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Required so Alpine-controlled elements don't flash before Alpine boots */
+[x-cloak] { display: none !important; }
